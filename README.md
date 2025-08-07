@@ -32,6 +32,7 @@ This catalog provides a quick overview of available DAGs, their purpose, and mai
 - **Maintainer:** Lavanya Kalla  
 - **Description:** Ingests raw CSV data from various sources, validates its structure, cleanses and transforms it, and loads it into a partitioned Delta Lake table for analytics.  
 - **DAGs:**  
-  - `schema_validation_dag` — Validates the schema (column names and data types) of source CSV files to ensure structural integrity before processing.
+  - - [`schema_validation_dag`](https://github.com/GlynacAI/airflow-dags/blob/main/transformation_to_deltalake/schema_validation_dag.py) — Validates the schema (column names and data types) of source CSV files to ensure structural integrity before processing.
+
 
 ---
